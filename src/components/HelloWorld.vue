@@ -41,7 +41,7 @@ export default {
           resourceTimelinePlugin,
         ],
         initialView: "resourceTimeline",
-        resources: this.resources,
+        resources: this.resources,  //Intenté tambien con JSON.stringify pero naranjas!!!
       },
     };
   },
